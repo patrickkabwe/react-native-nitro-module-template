@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.0.11](https://github.com/patrickkabwe/react-native-nitro-module-template/compare/v0.0.10...v0.0.11) (2024-12-24)
+
+### 📚 Documentation
+
+* add quick start with nitro modules ([869cb3f](https://github.com/patrickkabwe/react-native-nitro-module-template/commit/869cb3f8df3ae86128a59523b35b700e86434eb8))
+
 ## [0.0.10](https://github.com/patrickkabwe/react-native-nitro-module-template/compare/v0.0.9...v0.0.10) (2024-12-24)
 
 ### 🐛 Bug Fixes
