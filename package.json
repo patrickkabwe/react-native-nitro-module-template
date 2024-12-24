@@ -42,7 +42,6 @@
         "@jamesacarr/eslint-formatter-github-actions": "^0.2.0",
         "@release-it/bumper": "^6.0.1",
         "@release-it/conventional-changelog": "^9.0.4",
-        "@release-it/keep-a-changelog": "^5.0.0",
         "release-it": "^17.11.0"
     },
     "release-it": {
@@ -65,9 +64,6 @@
                         "path": "version"
                     }
                 ]
-            },
-            "@release-it/keep-a-changelog": {
-                "filename": "CHANGELOG.md"
             },
             "@release-it/conventional-changelog": {
                 "preset": {
@@ -94,7 +90,8 @@
                             "section": "📚 Documentation"
                         }
                     ]
-                }
+                },
+                "infile": "CHANGELOG.md"
             }
         }
     }
