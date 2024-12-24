@@ -8,8 +8,7 @@
     },
     "files": [
         "template",
-        "template.config.js",
-        "script.js"
+        "template.config.js"
     ],
     "scripts": {
         "release": "release-it"
