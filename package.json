@@ -39,9 +39,10 @@
         "ora": "^8.1.1"
     },
     "devDependencies": {
-        "@release-it/conventional-changelog": "^8.0.1",
-        "@release-it/bumper": "^6.0.1",
         "@jamesacarr/eslint-formatter-github-actions": "^0.2.0",
+        "@release-it/bumper": "^6.0.1",
+        "@release-it/conventional-changelog": "^9.0.4",
+        "@release-it/keep-a-changelog": "^5.0.0",
         "release-it": "^17.11.0"
     },
     "release-it": {
@@ -60,7 +61,7 @@
             "@release-it/bumper": {
                 "out": [
                     {
-                        "file": "react-native-nitro-module-template/package.json",
+                        "file": "package.json",
                         "path": "version"
                     }
                 ]
