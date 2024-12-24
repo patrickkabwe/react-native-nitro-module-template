@@ -20,9 +20,9 @@
     "author": "Patrick Kabwe <patrickkabwe@gmail.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/emin93/react-native-template-typescript/issues"
+        "url": "https://github.com/patrickkabwe/react-native-nitro-module-template/issues"
     },
-    "homepage": "https://github.com/emin93/react-native-template-typescript#readme",
+    "homepage": "https://github.com/patrickkabwe/react-native-nitro-module-template#readme",
     "keywords": [
         "react-native",
         "typescript",
