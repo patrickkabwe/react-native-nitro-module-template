@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 const ora = require("ora");
 
 const spinner = ora("Executing post init script ");
