@@ -2,6 +2,11 @@
     "name": "react-native-nitro-module-template",
     "version": "0.0.5",
     "description": "React Native Template With Nitro Modules",
+    "private": false,
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/",
+        "access": "public"
+    },
     "files": [
         "template",
         "template.config.js",
@@ -41,7 +46,7 @@
     },
     "release-it": {
         "npm": {
-            "publish": false
+            "publish": true
         },
         "git": {
             "commitMessage": "chore: release ${version}",
