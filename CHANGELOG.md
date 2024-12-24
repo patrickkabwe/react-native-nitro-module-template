@@ -1,5 +1,7 @@
 # Changelog
 
+## [0.0.7](https://github.com/patrickkabwe/react-native-nitro-module-template/compare/v0.0.6...v0.0.7) (2024-12-24)
+
 ## 0.0.6 (2024-12-24)
 
 ### 🐛 Bug Fixes
