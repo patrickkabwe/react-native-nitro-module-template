@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.0.8](https://github.com/patrickkabwe/react-native-nitro-module-template/compare/v0.0.7...v0.0.8) (2024-12-24)
+
+### 🐛 Bug Fixes
+
+* remove shebang ([a9f7d80](https://github.com/patrickkabwe/react-native-nitro-module-template/commit/a9f7d8075b38d9432b4d6f58a3e13cd9cf35e51a))
+
 ## [0.0.7](https://github.com/patrickkabwe/react-native-nitro-module-template/compare/v0.0.6...v0.0.7) (2024-12-24)
 
 ## 0.0.6 (2024-12-24)
