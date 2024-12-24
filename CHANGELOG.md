@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.0.10](https://github.com/patrickkabwe/react-native-nitro-module-template/compare/v0.0.9...v0.0.10) (2024-12-24)
+
+### 🐛 Bug Fixes
+
+* remove bunlockb file from template ([f391a13](https://github.com/patrickkabwe/react-native-nitro-module-template/commit/f391a13dbc660275bba31ca84ff7f4ebdb0759d1))
+
 ## [0.0.9](https://github.com/patrickkabwe/react-native-nitro-module-template/compare/v0.0.8...v0.0.9) (2024-12-24)
 
 ## [0.0.8](https://github.com/patrickkabwe/react-native-nitro-module-template/compare/v0.0.7...v0.0.8) (2024-12-24)
