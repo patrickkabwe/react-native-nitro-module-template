@@ -8,6 +8,16 @@ updates:
     labels:
       - "dependencies"
 
+  - package-ecosystem: "gradle"
+    directories:
+      - "/template/android/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "nitro-core"
+      - "dependencies"
+      - "kotlin"
+
   - package-ecosystem: "npm"
     directories:
       - "template"
@@ -15,3 +25,14 @@ updates:
       - "/"
     schedule:
       interval: "daily"
+    groups:
+      rncli:
+        patterns:
+          - "@react-native-community/cli*"
+      babel:
+        patterns:
+          - "@babel/*"
+      react-native:
+        patterns:
+          - "@react-native/*"
+          - "react-native"
