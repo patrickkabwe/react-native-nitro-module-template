@@ -1,4 +1,5 @@
-# React Native Module Template
+# React Native Nitro Module Template
+
 A scalable monorepo starter template for building React Native Nitro Modules - featuring TypeScript support, native platform implementations, and modern development workflows.
 
 ## Features
@@ -8,14 +9,6 @@ A scalable monorepo starter template for building React Native Nitro Modules - f
 - 🧪 Jest testing setup
 - 📦 Modern package management
 - 🚀 TypeScript support out of the box
-
-### Installation
-
-```bash
-bunx react-native init MyApp --template react-native-nitro-module-template
-cd MyApp
-bun install
-```
 
 ### Project Structure
 
@@ -34,6 +27,22 @@ bun install
 ├── tsconfig.json         # TypeScript settings
 └── README.md             # Documentation
 ```
+
+### Usage
+
+```bash
+bunx react-native init MyApp --template react-native-nitro-module-template
+cd MyApp
+bun install
+```
+
+### Quick Start With Nitro Modules
+
+> [!TIP]
+> To quickly generate Nitro Modules in your app, use [Create Nitro Module](https://www.npmjs.com/package/create-nitro-module).
+> `bun create nitro-module my-nitro-module --module-dir native-modules`
+> `cd my-nitro-module`
+> `bun install`
 
 ### Contributing
 
