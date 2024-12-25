@@ -39,8 +39,8 @@ bun install
 ### Quick Start With Nitro Modules
 
 > [!TIP]
-> To quickly generate Nitro Modules in your app, use [Create Nitro Module](https://www.npmjs.com/package/create-nitro-module).
-> `bun create nitro-module my-nitro-module --module-dir packages`
+> To quickly generate Nitro Modules in your app, use [Create Nitro Module](https://github.com/patrickkabwe/create-nitro-module).
+> `bun create nitro-module my-nitro-module --skip-example --module-dir packages`
 
 ### Contributing
 
