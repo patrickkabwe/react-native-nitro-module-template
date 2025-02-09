@@ -1,3 +1,9 @@
 **/node_modules
 .npmrc
 .vscode
+vendor
+.env
+Gemfile.lock
+tsconfig.tsbuildinfo
+template/ios/Podfile.lock
+template/bun.lock
