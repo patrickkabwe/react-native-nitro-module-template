@@ -17,7 +17,7 @@ A scalable monorepo starter template for building React Native Nitro Modules - f
 ├── android/              # Android application source
 ├── ios/                  # iOS application source
 ├── src/                  # React Native app code
-├── packages/             # JavaScript/TypeScript module packages
+├── modules/              # React Native Nitro Modules
 │   └── my-nitro-module/  # Example of a nitro module
 │       ├── __tests__/    # Test files
 │       ├── android/      # Android native module implementation
@@ -40,7 +40,7 @@ bun install
 
 > [!TIP]
 > To quickly generate Nitro Modules in your app, use [Create Nitro Module](https://github.com/patrickkabwe/create-nitro-module).
-> `bun create nitro-module my-nitro-module --skip-example --module-dir packages`
+> `bun create nitro-module my-nitro-module --skip-example --module-dir modules`
 
 ### Contributing
 

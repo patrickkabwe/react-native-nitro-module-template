@@ -24,7 +24,7 @@ namespace margelo::nitro::sum {
   }
 
   size_t JHybridSumSpec::getExternalMemorySize() noexcept {
-    static const auto method = _javaPart->getClass()->getMethod<jlong()>("getMemorySize");
+    static const auto method = javaClassStatic()->getMethod<jlong()>("getMemorySize");
     return method(_javaPart);
   }
 
@@ -33,7 +33,7 @@ namespace margelo::nitro::sum {
 
   // Methods
   double JHybridSumSpec::add(double num1, double num2) {
-    static const auto method = _javaPart->getClass()->getMethod<double(double /* num1 */, double /* num2 */)>("add");
+    static const auto method = javaClassStatic()->getMethod<double(double /* num1 */, double /* num2 */)>("add");
     auto __result = method(_javaPart, num1, num2);
     return __result;
   }
