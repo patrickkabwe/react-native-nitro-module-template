@@ -1,26 +1,26 @@
 const path = require('path');
 const fs = require('fs');
 
-// Get all package directories from the packages folder
-const packagesDir = path.join(__dirname, 'packages');
-const packages = fs.readdirSync(packagesDir);
+// Get all package directories from the modules folder
+const modulesDir = path.join(__dirname, 'modules');
+const modules = fs.readdirSync(modulesDir);
 
 // Helper function to find podspec file
-const findPodspecPath = packagePath => {
-  const files = fs.readdirSync(packagePath);
+const findPodspecPath = modulePath => {
+  const files = fs.readdirSync(modulePath);
   const podspecFile = files.find(file => file.endsWith('.podspec'));
-  return podspecFile ? path.join(packagePath, podspecFile) : null;
+  return podspecFile ? path.join(modulePath, podspecFile) : null;
 };
 
 // Generate dependencies configuration dynamically
-const dependencies = packages.reduce((acc, packageName) => {
-  const packagePath = path.join(packagesDir, packageName);
+const dependencies = modules.reduce((acc, moduleName) => {
+  const modulePath = path.join(modulesDir, moduleName);
 
   // Skip if not a directory
-  if (!fs.statSync(packagePath).isDirectory()) return acc;
+  if (!fs.statSync(modulePath).isDirectory()) return acc;
 
   try {
-    const packageJson = require(path.join(packagePath, 'package.json'));
+    const packageJson = require(path.join(modulePath, 'package.json'));
 
     // Skip packages that don't have react-native in their dependencies
     const hasReactNative =
@@ -33,10 +33,10 @@ const dependencies = packages.reduce((acc, packageName) => {
       return acc;
     }
 
-    const podspecPath = findPodspecPath(packagePath);
+    const podspecPath = findPodspecPath(modulePath);
 
     acc[packageJson.name] = {
-      root: packagePath,
+      root: modulePath,
       platforms: {
         /**
          * @type {import('@react-native-community/cli-types').IOSDependencyConfig}
@@ -51,7 +51,7 @@ const dependencies = packages.reduce((acc, packageName) => {
       },
     };
   } catch (error) {
-    console.warn(`Warning: Could not process package at ${packagePath}`, error);
+    console.warn(`Warning: Could not process module at ${modulePath}`, error);
   }
 
   return acc;

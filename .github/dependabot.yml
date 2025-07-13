@@ -21,7 +21,7 @@ updates:
   - package-ecosystem: "npm"
     directories:
       - "/template"
-      - "/template/packages/*"
+      - "/template/modules/*"
       - "/"
     schedule:
       interval: "daily"

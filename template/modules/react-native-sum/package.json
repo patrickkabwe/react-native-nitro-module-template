@@ -31,8 +31,7 @@
         "typecheck": "tsc --noEmit",
         "clean": "rm -rf android/build node_modules/**/android/build lib android/.cxx node_modules/**/android/.cxx",
         "release": "release-it",
-        "codegen": "bun typecheck && nitro-codegen --logLevel=\"debug\"",
-        "postcodegen": "bun run build && node post-script.js"
+        "codegen": "bun typecheck && nitro-codegen --logLevel=\"debug\" && bun run post-script"
     },
     "keywords": [
         "react-native"
@@ -48,14 +47,14 @@
     },
     "devDependencies": {
         "@types/jest": "^29.5.12",
-        "@types/react": "^18.3.4",
+        "@types/react": "^19.1.8",
         "eslint": "^8.19.0",
         "prettier": "2.8.8",
-        "react": "^18.3.1",
-        "react-native": "^0.77.0",
+        "react": "^19.1.0",
+        "react-native": "^0.80.1",
         "react-native-builder-bob": "^0.35.2",
-        "nitro-codegen": "^0.22.1",
-        "react-native-nitro-modules": "^0.22.1",
+        "nitro-codegen": "^0.26.3",
+        "react-native-nitro-modules": "^0.26.3",
         "typescript": "5.0.4"
     },
     "peerDependencies": {
