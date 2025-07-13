@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.3.0](https://github.com/patrickkabwe/react-native-nitro-module-template/compare/v0.0.11...v0.3.0) (2025-07-13)
+
+### ✨ Features
+
+*  new nitro ([#29](https://github.com/patrickkabwe/react-native-nitro-module-template/issues/29)) ([4e154d0](https://github.com/patrickkabwe/react-native-nitro-module-template/commit/4e154d05f2d148604e6a8b27573f0c0eb9b27215))
+* nitro upgrade ([#35](https://github.com/patrickkabwe/react-native-nitro-module-template/issues/35)) ([9b0f51b](https://github.com/patrickkabwe/react-native-nitro-module-template/commit/9b0f51babe3194505d5dc80a5ca10d127bc8c760))
+
+### 🐛 Bug Fixes
+
+* correct cache key in release workflow and initialize NPM config ([#69](https://github.com/patrickkabwe/react-native-nitro-module-template/issues/69)) ([58e40b2](https://github.com/patrickkabwe/react-native-nitro-module-template/commit/58e40b22dbd6356523984f0647e36bf50bf56bcc))
+
+### 📚 Documentation
+
+* update docs ([eab4a31](https://github.com/patrickkabwe/react-native-nitro-module-template/commit/eab4a31eb672c8f0a4b8962e1eb716b13ded839c))
+* update docs ([df348fd](https://github.com/patrickkabwe/react-native-nitro-module-template/commit/df348fdb228521ad5d415580877397c64992c5c5))
+
 ## [0.0.11](https://github.com/patrickkabwe/react-native-nitro-module-template/compare/v0.0.10...v0.0.11) (2024-12-24)
 
 ### 📚 Documentation
