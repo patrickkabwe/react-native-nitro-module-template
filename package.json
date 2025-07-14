@@ -39,7 +39,7 @@
     "devDependencies": {
         "@jamesacarr/eslint-formatter-github-actions": "^0.2.0",
         "@release-it/bumper": "^7.0.1",
-        "@release-it/conventional-changelog": "^9.0.4",
+        "@release-it/conventional-changelog": "^10.0.1",
         "release-it": "^17.11.0"
     },
     "release-it": {
