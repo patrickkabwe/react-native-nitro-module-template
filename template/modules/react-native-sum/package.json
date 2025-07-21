@@ -52,7 +52,7 @@
         "prettier": "2.8.8",
         "react": "^19.1.0",
         "react-native": "^0.80.1",
-        "react-native-builder-bob": "^0.35.2",
+        "react-native-builder-bob": "^0.40.13",
         "nitro-codegen": "^0.26.4",
         "react-native-nitro-modules": "^0.26.4",
         "typescript": "5.0.4"
