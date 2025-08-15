@@ -1,6 +1,6 @@
 {
     "name": "react-native-nitro-module-template",
-    "version": "1.0.1",
+    "version": "1.2.0",
     "description": "React Native Template With Nitro Modules",
     "publishConfig": {
         "access": "public",
