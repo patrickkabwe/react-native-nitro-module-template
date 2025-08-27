@@ -54,7 +54,7 @@
         "react-native": "^0.80.2",
         "react-native-builder-bob": "^0.35.2",
         "nitro-codegen": "^0.28.0",
-        "react-native-nitro-modules": "^0.26.4",
+        "react-native-nitro-modules": "^0.28.1",
         "typescript": "5.0.4"
     },
     "peerDependencies": {
